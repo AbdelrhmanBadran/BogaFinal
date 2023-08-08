@@ -45,7 +45,7 @@ a{
   font-weight: 400;
 }
 .single-slide {
-  height: 100vh;
+    height: calc(100vh - 60px) !important;
 }
 .single-slide .layer {
   height: 100% !important;
